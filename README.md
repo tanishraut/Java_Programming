@@ -1,0 +1,559 @@
+# Logic Building – Java Programs
+**Author:** Tanish Tanaji Raut  
+**Batch:** LB 47 | **RID:** 367  
+
+```c
+
+# Assignment 16 – Basic Looping & Arithmetic Operations  
+**Description:** Java programs focusing on fundamental looping constructs, arithmetic calculations, and digit analysis.
+
+//////////////////////////////////////////////////////////////
+//  Program16_1
+//
+//  Function Name :     DisplayNumbers
+//  Description   :     Displays numbers from 1 to the entered limit using a loop.
+//  Input         :     Integer
+//  Output        :     Printed sequence of numbers
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 5
+//  Output : 1 2 3 4 5
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program16_2
+//
+//  Function Name :     CalculateSum
+//  Description   :     Calculates the sum of numbers from 1 to n.
+//  Input         :     Integer
+//  Output        :     Integer (Sum of numbers)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 5
+//  Output : 15
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program16_3
+//
+//  Function Name :     CalculateFactorial
+//  Description   :     Computes factorial of the entered number.
+//  Input         :     Integer
+//  Output        :     Integer (Factorial value)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 5
+//  Output : 120
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program16_4
+//
+//  Function Name :     DisplayEvenNumbers
+//  Description   :     Displays all even numbers between 1 and n.
+//  Input         :     Integer
+//  Output        :     Printed even numbers
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 10
+//  Output : 2 4 6 8 10
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program16_5
+//
+//  Function Name :     DisplayOddNumbers
+//  Description   :     Displays all odd numbers between 1 and n.
+//  Input         :     Integer
+//  Output        :     Printed odd numbers
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 10
+//  Output : 1 3 5 7 9
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+# Assignment 17 – Conditional & Logical Constructs  
+**Description:** Programs demonstrating decision-making statements such as if-else and switch, and logical operations in Java.
+
+//////////////////////////////////////////////////////////////
+//  Program17_1
+//
+//  Function Name :     CheckEvenOdd
+//  Description   :     Checks whether the entered number is even or odd.
+//  Input         :     Integer
+//  Output        :     Printed message indicating even / odd
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 5
+//  Output : Odd Number
+//
+//  Input : 8
+//  Output : Even Number
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program17_2
+//
+//  Function Name :     CheckPositiveNegative
+//  Description   :     Determines whether the given number is positive, negative, or zero.
+//  Input         :     Integer
+//  Output        :     Message describing sign of number
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : -8
+//  Output : Negative Number
+//
+//  Input : 0
+//  Output : Zero
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program17_3
+//
+//  Function Name :     FindMaximum
+//  Description   :     Finds the largest of two numbers entered by user.
+//  Input         :     Two Integers
+//  Output        :     Integer (Maximum value)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 10  20
+//  Output : 20
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program17_4
+//
+//  Function Name :     CheckLeapYear
+//  Description   :     Checks whether the entered year is a leap year or not.
+//  Input         :     Integer (Year)
+//  Output        :     Message (True / False)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 2024
+//  Output : Leap Year
+//
+//  Input : 2023
+//  Output : Not a Leap Year
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program17_5
+//
+//  Function Name :     DisplayGrade
+//  Description   :     Displays grade based on marks using conditional statements.
+//  Input         :     Integer (Marks 0–100)
+//  Output        :     Character (Grade)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 82
+//  Output : Grade A
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+
+# Assignment 18 – Looping & Number-Based Computations  
+**Description:** Programs performing mathematical operations such as digit extraction, summation, and reversal using loops.
+
+//////////////////////////////////////////////////////////////
+//  Program18_1
+//
+//  Function Name :     SumOfDigits
+//  Description   :     Computes the sum of all digits of a number.
+//  Input         :     Integer
+//  Output        :     Integer (Sum of digits)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 2395
+//  Output : 19
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program18_2
+//
+//  Function Name :     ReverseNumber
+//  Description   :     Reverses the digits of a number.
+//  Input         :     Integer
+//  Output        :     Integer (Reversed number)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 2395
+//  Output : 5932
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program18_3
+//
+//  Function Name :     CountDigits
+//  Description   :     Counts total number of digits in a number.
+//  Input         :     Integer
+//  Output        :     Integer (Digit count)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 1018
+//  Output : 4
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program18_4
+//
+//  Function Name :     CountEvenDigits
+//  Description   :     Counts even digits from given number.
+//  Input         :     Integer
+//  Output        :     Integer (Count of even digits)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 2395
+//  Output : 1
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program18_5
+//
+//  Function Name :     ProductOfDigits
+//  Description   :     Calculates product of digits in a number.
+//  Input         :     Integer
+//  Output        :     Integer (Product value)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 2395
+//  Output : 270
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+
+# Assignment 19 – Looping & Arithmetic Range Calculations  
+**Description:** Java programs that perform arithmetic and logical operations over a given range of numbers.
+
+//////////////////////////////////////////////////////////////
+//  Program19_1
+//
+//  Function Name :     DisplayFactors
+//  Description   :     Displays all factors of a given number.
+//  Input         :     Integer
+//  Output        :     Printed factors
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : 1 2 3 4 6 12
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program19_2
+//
+//  Function Name :     SumOfFactors
+//  Description   :     Calculates the sum of all factors of a number.
+//  Input         :     Integer
+//  Output        :     Integer (Sum of factors)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : 28
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program19_3
+//
+//  Function Name :     CheckPerfectNumber
+//  Description   :     Checks whether the given number is a Perfect number.
+//  Input         :     Integer
+//  Output        :     Boolean / Message
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 28
+//  Output : Perfect Number
+//
+//  Input : 12
+//  Output : Not a Perfect Number
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program19_4
+//
+//  Function Name :     CheckPrime
+//  Description   :     Determines if a number is prime or not.
+//  Input         :     Integer
+//  Output        :     Message (Prime / Not Prime)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 7
+//  Output : Prime Number
+//
+//  Input : 8
+//  Output : Not a Prime Number
+//
+//  Time Complexity : O(√n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program19_5
+//
+//  Function Name :     DisplayNonFactors
+//  Description   :     Displays all numbers that are not factors of a given number.
+//  Input         :     Integer
+//  Output        :     Printed non-factors
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 6
+//  Output : 4 5
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+# Assignment 20 – Looping & Factor-Based Computations  
+**Description:** Programs involving mathematical relationships between factors, multiples, and numerical conditions.
+
+//////////////////////////////////////////////////////////////
+//  Program20_1
+//
+//  Function Name :     SumNonFactors
+//  Description   :     Calculates sum of all non-factors of a number.
+//  Input         :     Integer
+//  Output        :     Integer (Sum)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : 50
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program20_2
+//
+//  Function Name :     DiffFactorSumNonFactor
+//  Description   :     Calculates difference between sum of factors and sum of non-factors.
+//  Input         :     Integer
+//  Output        :     Integer (Difference)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : -22
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program20_3
+//
+//  Function Name :     DisplayCommonFactors
+//  Description   :     Displays common factors of two numbers.
+//  Input         :     Two Integers
+//  Output        :     Printed common factors
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12 18
+//  Output : 1 2 3 6
+//
+//  Time Complexity : O(min(n1, n2))
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program20_4
+//
+//  Function Name :     CalculateHCF
+//  Description   :     Calculates Highest Common Factor (HCF) of two numbers.
+//  Input         :     Two Integers
+//  Output        :     Integer (HCF)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12 18
+//  Output : 6
+//
+//  Time Complexity : O(min(n1, n2))
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program20_5
+//
+//  Function Name :     CalculateLCM
+//  Description   :     Calculates Least Common Multiple (LCM) of two numbers.
+//  Input         :     Two Integers
+//  Output        :     Integer (LCM)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12 18
+//  Output : 36
+//
+//  Time Complexity : O(min(n1, n2))
+//
+//////////////////////////////////////////////////////////////
+
+
+# Assignment 21 – Looping & Advanced Number Operations  
+**Description:** Logic-building Java programs focusing on mathematical patterns, number relationships, and digit-based operations.
+
+//////////////////////////////////////////////////////////////
+//  Program21_1
+//
+//  Function Name :     CheckArmstrong
+//  Description   :     Checks whether the entered number is an Armstrong number.
+//  Input         :     Integer
+//  Output        :     Message (True / False)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 153
+//  Output : Armstrong Number
+//
+//  Input : 120
+//  Output : Not an Armstrong Number
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program21_2
+//
+//  Function Name :     CheckPalindrome
+//  Description   :     Checks if the given number is palindrome.
+//  Input         :     Integer
+//  Output        :     Message (True / False)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 121
+//  Output : Palindrome Number
+//
+//  Input : 123
+//  Output : Not a Palindrome
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program21_3
+//
+//  Function Name :     SumEvenDigits
+//  Description   :     Calculates sum of even digits in the entered number.
+//  Input         :     Integer
+//  Output        :     Integer (Sum)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 123456
+//  Output : 12
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program21_4
+//
+//  Function Name :     SumOddDigits
+//  Description   :     Calculates sum of odd digits in the entered number.
+//  Input         :     Integer
+//  Output        :     Integer (Sum)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 123456
+//  Output : 9
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//  Program21_5
+//
+//  Function Name :     DifferenceEvenOddSum
+//  Description   :     Finds difference between sum of even and odd digits.
+//  Input         :     Integer
+//  Output        :     Integer (Difference)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 2395
+//  Output : -15
+//
+//  Time Complexity : O(d)
+//
+//////////////////////////////////////////////////////////////
