@@ -1,0 +1,19 @@
+class Logic
+{
+    void checkEvenOdd(int num)
+    {
+        if (num % 2 == 0)
+            System.out.println(num + " Even");
+        else
+            System.out.println(num + " Odd");
+    }
+}
+
+class program16_2
+{
+    public static void main(String args[])
+    {
+        Logic obj = new Logic();
+        obj.checkEvenOdd(7);
+    }
+}
