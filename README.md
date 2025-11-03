@@ -15,13 +15,6 @@
 # Assignment 16 – Looping & Arithmetic Logic Programs  
 **Description:** Programs demonstrating basic arithmetic operations and looping concepts in Java. These exercises cover summation, even–odd checks, factorial calculation, digit reversal, and digit counting. Each program emphasizes iterative logic, mathematical reasoning, and structured flow control using loops and conditionals.
 
-//////////////////////////////////////////////////////////////
-//
-//  Assignment :        16
-//  Description :       Looping & Arithmetic Logic Programs
-//
-//////////////////////////////////////////////////////////////
-
 
 //////////////////////////////////////////////////////////////
 //  Program16_1
@@ -140,14 +133,6 @@
 # Assignment 17 – Conditional & Iterative Logic Programs
 **Description:**his assignment focuses on control flow and logical problem-solving using conditional statements and loops in Java. These programs demonstrate the use of decision-making, iteration, and basic arithmetic operations such as digit manipulation, palindrome verification, and comparative logic.
 
-
-
-//////////////////////////////////////////////////////////////
-//
-//  Assignment :        17
-//  Description :       Conditional & Iterative Logic Programs
-//
-//////////////////////////////////////////////////////////////
 
 
 //////////////////////////////////////////////////////////////
