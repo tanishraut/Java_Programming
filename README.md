@@ -1,8 +1,16 @@
-# Logic Building – Java Programs
-**Author:** Tanish Tanaji Raut  
-**Batch:** LB 47 | **RID:** 367  
-
+# Java Programming Assignments
 ```c
+//////////////////////////////////////////////////////////////
+//
+//  Author Name :       Tanish Tanaji Raut
+//  Batch       :       LB 47
+//  RID         :       367
+//  Description :       Summary of Java Logic Building Assignments.
+//
+//////////////////////////////////////////////////////////////
+
+
+
 
 # Assignment 16 – Basic Looping & Arithmetic Operations  
 **Description:** Java programs focusing on fundamental looping constructs, arithmetic calculations, and digit analysis.
